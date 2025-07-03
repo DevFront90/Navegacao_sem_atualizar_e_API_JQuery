@@ -41,3 +41,14 @@ nav ul li a {
 nav ul li a:hover {
     color: #fafafa;
 }
+
+nav ul li a.active {
+     color: #fafafa;
+    font-weight: bold;
+    border-bottom: 2px solid #1aff05;
+    padding-bottom: 5px;
+}
+
+nav ul li a.active:hover {
+    color: #1aff05;
+}
